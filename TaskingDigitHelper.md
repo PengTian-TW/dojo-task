@@ -67,7 +67,7 @@
     ```
     @Test
     void should_return_two_sum_of_numbers_when_mixed_with_other_characters() {
-    assertEquals(6, DigitsHelper.sumDigits("5a1b"));}
+    assertEquals(6, DigitsHelper.sumDigits("1a2b"));}
     ```
     **Test result:**
     passed all tests
