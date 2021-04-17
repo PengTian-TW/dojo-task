@@ -1,4 +1,4 @@
-1. Test 1: **input 1 -> output 1**
+1. Test 1: **input 1 -> output 1**  
     **Code**
     ```
     int sum = 1;
@@ -12,7 +12,7 @@
     ```
     **Test result：**
     passed
-2. Test 2: **input a -> output 0**
+2. Test 2: **input a -> output 0**  
     **Code**
     ```
     int sum = 0;
@@ -30,7 +30,7 @@
 	```
     **Test result：**
     passed all tests
-3. Test 3: **input 1a -> output 1**
+3. Test 3: **input 1a -> output 1**  
     **Code**
     ```
     int sum = 0;
@@ -52,7 +52,7 @@
     ```
     **Test result:**
     passed all tests
-4. Test 4: **input 1a2b -> output 3**
+4. Test 4: **input 1a2b -> output 3**  
     **Code**
     ```
     int sum = 0;
@@ -71,7 +71,7 @@
     ```
     **Test result:**
     passed all tests
-5. Test 5: **input “”(empty) ->output 0**
+5. Test 5: **input “”(empty) ->output 0**  
     **Code**
     ```
     int sum = 0;
@@ -91,7 +91,7 @@
     ```
     **Test result:**
     passed all tests
-6. Test 6: **input null->output IllegalArgumentException**
+6. Test 6: **input null->output IllegalArgumentException**  
     **Code**
     ```
     if(text==null){
