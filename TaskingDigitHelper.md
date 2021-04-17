@@ -5,10 +5,11 @@
      return sum````
     **TestCase:**
     ```
+    ```
     @Test
     void should_return_1_in_the_string(){
     assertEquals(1, DigitsHelper.sumDigits("1"));}
-    ````
+    ```
     **Test result**
 2. Test 2 **input a -> output 0**
     **Code**
