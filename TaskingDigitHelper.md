@@ -2,7 +2,8 @@
     **Code**
     ```
     int sum = 1;
-     return sum````
+     return sum;
+     ```
     **TestCase:**
     ```
     ```
@@ -13,7 +14,7 @@
     **Test result**
 2. Test 2 **input a -> output 0**
     **Code**
-    ````
+    ```
     int sum = 0;
 	if(text=="a") {
     		return sum;
