@@ -83,3 +83,4 @@
     `@Test
 	void should_throw_if_text_is_null() {assertThrows(IllegalArgumentException.class,() -> DigitsHelper.sumDigits(null));}`
     *Test result*
+
