@@ -10,15 +10,16 @@
     void should_return_1_in_the_string(){
     assertEquals(1, DigitsHelper.sumDigits("1"));}
     ```
-    **Test result**
+    **Test result：**
+    passed
 2. Test 2: **input a -> output 0**
     **Code**
     ```
     int sum = 0;
 	if(text=="a") {
-    		return sum;
+    	return sum;
 	}else{
-    		return 1;
+    	return 1;
 	}
 	```
     **TestCase**
@@ -27,7 +28,8 @@
 	void should_return_0_in_the_string() {
     	assertEquals(0, DigitsHelper.sumDigits(“a"));}
 	```
-    **Test result**
+    **Test result：**
+    passed all tests
 3. Test 3: **input 1a -> output 1**
     **Code**
     ```
@@ -48,7 +50,8 @@
     void should_return_number_in_the_string() {
     assertEquals(1, DigitsHelper.sumDigits("1a"));}
     ```
-    **Test result**
+    **Test result:**
+    passed all tests
 4. Test 4: **input 1a2b -> output 3**
     **Code**
     ```
@@ -66,7 +69,8 @@
     void should_return_two_sum_of_numbers_when_mixed_with_other_characters() {
     assertEquals(6, DigitsHelper.sumDigits("5a1b"));}
     ```
-    **Test result**
+    **Test result:**
+    passed all tests
 5. Test 5: **input “”(empty) ->output 0**
     **Code**
     ```
@@ -85,7 +89,8 @@
     assertEquals(0, DigitsHelper.sumDigits(""));
     }
     ```
-    **Test result**
+    **Test result:**
+    passed all tests
 6. Test 6: **input null->output IllegalArgumentException**
     **Code**
     ```
@@ -106,5 +111,6 @@
    	 @Test
 	void should_throw_if_text_is_null() {assertThrows(IllegalArgumentException.class,() -> DigitsHelper.sumDigits(null));}
 	```
-    **Test result**
+    **Test result:**
+    passed all tests
 
