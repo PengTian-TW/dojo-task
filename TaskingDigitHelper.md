@@ -6,13 +6,12 @@
      ```
     **TestCase:**
     ```
-    ```
     @Test
     void should_return_1_in_the_string(){
     assertEquals(1, DigitsHelper.sumDigits("1"));}
     ```
     **Test result**
-2. Test 2 **input a -> output 0**
+2. Test 2: **input a -> output 0**
     **Code**
     ```
     int sum = 0;
@@ -29,7 +28,7 @@
     	assertEquals(0, DigitsHelper.sumDigits(“a"));}
 	```
     **Test result**
-3. Test 3 **input 1a -> output 1**
+3. Test 3: **input 1a -> output 1**
     **Code**
     ```
     int sum = 0;
@@ -50,7 +49,7 @@
     assertEquals(1, DigitsHelper.sumDigits("1a"));}
     ```
     **Test result**
-4. Test 4 **input 1a2b -> output 3**
+4. Test 4: **input 1a2b -> output 3**
     **Code**
     ```
     int sum = 0;
@@ -68,7 +67,7 @@
     assertEquals(6, DigitsHelper.sumDigits("5a1b"));}
     ```
     **Test result**
-5. Test 5 **input “”(empty) ->output 0**
+5. Test 5: **input “”(empty) ->output 0**
     **Code**
     ```
     int sum = 0;
@@ -80,12 +79,14 @@
     return sum;
     ```
     **TestCase**
-    `@Test
+    ```
+    @Test
     void should_return_zero_if_there_is_no_number() {
     assertEquals(0, DigitsHelper.sumDigits(""));
-    }`
+    }
+    ```
     **Test result**
-6. Test 6 **input null->output IllegalArgumentException**
+6. Test 6: **input null->output IllegalArgumentException**
     **Code**
     ```
     if(text==null){
@@ -102,7 +103,7 @@
 	```
     **TestCase**
     ```
-    @Test
+   	 @Test
 	void should_throw_if_text_is_null() {assertThrows(IllegalArgumentException.class,() -> DigitsHelper.sumDigits(null));}
 	```
     **Test result**
